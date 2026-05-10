@@ -1,0 +1,16 @@
+{
+  "name": "discord-bot-loritta",
+  "version": "1.0.0",
+  "description": "Bot Discord estilo Loritta com economia, apostas, NSFW e interações",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "sqlite3": "^5.1.7",
+    "better-sqlite3": "^9.6.0"
+  }
+}
